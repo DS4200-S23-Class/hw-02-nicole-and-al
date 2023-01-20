@@ -1,77 +1,123 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>hw-02</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <title>hw-02</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-  <body>
-    <div id="data-abstraction">
-      <div class="info">
-        <h2 class="center">Dataset Types</h2>
-        <table>
-          <tr class="head">
-            <th>Data</th>
-            <th>Link</th>
-            <th>Dataset Type</th>
-          </tr>
-          <tr>
-            <td>Airport</td>
-            <td><a href="data/Airports.csv">File</a></td>
-            <td>Geometry</td>
-          </tr>
-          <tr>
-            <td>Google-Web</td>
-            <td><a href="data/Google-Web.txt">File</a></td>
-            <td>Network</td>
-          </tr>
-          <tr>
-            <td>UFO</td>
-            <td><a href="data/UFO.csv">File</a></td>
-            <td>Table</td>
-          </tr>
-        </table>
-      </div>
-      <div class="info">
-        <h2 class="center">Data Types</h2>
-        <h3>Airports</h3>
-        <ul>
-          <li>AIRPORT_NAME - Item</li>
-          <li>LATITUDE - Position</li>
-          <li>LONGITUDE - Position</li>
-        </ul>
-        <h3>Google-Web</h3>
-        <ul>
-          <li>Row data type - Link</li>
-          <li>FromNodeId - Item</li>
-          <li>ToNodeId - Item</li>
-        </ul>
-        <h3>UFO</h3>
-        <ul>
-          <li>datetime - Item</li>
-          <ul>
-            <li>Attributes: Sequential quantitative ordered</li>
-          </ul>
-          <li>city - Item</li>
-          <li>state - Item</li>
-          <ul>
-            <li>Attributes: Categorical</li>
-          </ul>
-          <li>country - Item</li>
-          <ul>
-            <li>Attributes: Categorical</li>
-          </ul>
-          <li>shape - Item</li>
-          <ul>
-            <li>Attributes: Categorical</li>
-          </ul>
-          <li>duration - Item</li>
-          <ul>
-            <li>Attributes: Sequential quantitative ordered</li>
-          </ul>
-        </ul>
-      </div>
+<body>
+  <div id="data-abstraction">
+    <div class="info">
+      <h2 class="center">Dataset Types</h2>
+      <table class = "fullwidth center">
+        <tr class="head">
+          <th>Data</th>
+          <th>Link</th>
+          <th>Dataset Type</th>
+        </tr>
+        <tr>
+          <td>Airport</td>
+          <td><a href="data/Airports.csv">File</a></td>
+          <td>Geometry</td>
+        </tr>
+        <tr>
+          <td>Google-Web</td>
+          <td><a href="data/Google-Web.txt">File</a></td>
+          <td>Network</td>
+        </tr>
+        <tr>
+          <td>UFO</td>
+          <td><a href="data/UFO.csv">File</a></td>
+          <td>Table</td>
+        </tr>
+      </table>
     </div>
-  </body>
-</html>
+    <div class="info">
+      <h2 class="center">Data Types</h2>
+      <h3>Airports</h3>
+      <ul>
+        <li>AIRPORT_NAME - Item</li>
+        <li>LATITUDE - Position</li>
+        <li>LONGITUDE - Position</li>
+      </ul>
+      <h3>Google-Web</h3>
+      <ul>
+        <li>Row data type - Link</li>
+        <li>FromNodeId - Item</li>
+        <li>ToNodeId - Item</li>
+      </ul>
+      <h3>UFO</h3>
+      <ul>
+        <li>datetime - Item</li>
+        <ul>
+          <li>Attributes: Sequential quantitative ordered</li>
+        </ul>
+        <li>city - Item</li>
+        <li>state - Item</li>
+        <ul>
+          <li>Attributes: Categorical</li>
+        </ul>
+        <li>country - Item</li>
+        <ul>
+          <li>Attributes: Categorical</li>
+        </ul>
+        <li>shape - Item</li>
+        <ul>
+          <li>Attributes: Categorical</li>
+        </ul>
+        <li>duration - Item</li>
+        <ul>
+          <li>Attributes: Sequential quantitative ordered</li>
+        </ul>
+      </ul>
+    </div>
+    <div id = "task-abstraction">
+      <h4 class = "center" >Task Abstraction</h4> 
+      <div class = "flexbox">  
+
+        <div> <img src="img/vis1.png" class = "graph" />
+          <h6> High Level TBD </h6>
+          <h6>Medium Level TBD </h6>
+          <h6> Low Level : Trend Overtime </h6>
+          <h6> Targets TBD </h6>
+        </div>
+
+        <div> <img src="img/vis2.png" class = "graph"/> 
+          <h6> High Level TBD </h6>
+          <h6>Medium Level TBD </h6>
+          <h6> Low Level : Comparison, Trend Overtime </h6>
+          <h6> Targets  TBD</h6>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+    <div id = "decoration">
+      <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40"/> </svg>
+        <svg width="100" height="110">
+          <rect width="100" height="110"  />
+        </svg>
+
+              <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40"/> </svg>
+        <svg width="100" height="110">
+          <rect width="100" height="110"  />
+        </svg>
+
+
+      </div>
+
+    </h5> Acknowledgements </h5>
+    <div>       
+      <ul>
+        <li>HTML Free Code Camp</li>
+      </div>
+
+
+    </body>
+    </html>
