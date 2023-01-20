@@ -2,8 +2,8 @@ body {
   font-family: Arial;
 }
 
-th {
-  background-color: blue;
+.head {
+  background: lightblue;
 }
 
 .center {
