@@ -1,0 +1,11 @@
+body {
+  font-family: Arial;
+}
+
+th {
+  background-color: blue;
+}
+
+.center {
+  text-align: center;
+}
