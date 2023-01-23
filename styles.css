@@ -19,7 +19,7 @@ body {
 
 #decoration {display:flex; justify-content: space-between}
 
-h5 {text-align: center; font-size: xx-small;}
+h5 {font-size: xx-small;}
 
 rect {fill:rgb(0,0,225);stroke-width:10;stroke:rgb(0,0,0); }
 rect:hover {fill: orangered; stroke: orangered;}
