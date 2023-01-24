@@ -11,6 +11,7 @@ rect {
   stroke-width: 10;
   stroke: rgb(28, 191, 63);
 }
+
 rect:hover {
   fill: orangered;
 }
@@ -19,6 +20,7 @@ circle {
   fill: yellow;
   opacity: 0.5;
 }
+
 circle:hover {
   stroke: purple;
   stroke-width: 4;
