@@ -9,11 +9,10 @@ h5 {
 rect {
   fill: rgb(0, 0, 225);
   stroke-width: 10;
-  stroke: rgb(0, 0, 0);
+  stroke: rgb(28, 191, 63);
 }
 rect:hover {
   fill: orangered;
-  stroke: orangered;
 }
 
 circle {
@@ -30,24 +29,36 @@ circle:hover {
   justify-content: space-between;
 }
 
-.head {
-  background: lightblue;
+#dataset-type-table {
+  border-collapse: collapse;
 }
 
-.graph {
-  width: 400px;
+#dataset-type-table th,
+#dataset-type-table tr {
+  border-bottom: 1px solid black;
+}
+
+.head {
+  background: lightblue;
 }
 
 .center {
   text-align: center;
 }
 
-.fullwidth {
+.full-width {
   width: 100%;
 }
 
-.flexbox {
+.column-container {
   display: flex;
-  order: 2;
-  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.column {
+  width: 50%;
+}
+
+.graph {
+  width: 100%;
 }
