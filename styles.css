@@ -61,6 +61,10 @@ circle:hover {
   width: 50%;
 }
 
+.column > h3 {
+  color: green;
+}
+
 .graph {
   width: 100%;
 }
