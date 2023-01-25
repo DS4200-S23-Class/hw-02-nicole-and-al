@@ -39,23 +39,31 @@
         <h2 class="center">Data Types</h2>
         <h3>Airports</h3>
         <ul>
+          <li>Row data type - Item</li>
           <li>AIRPORT_NAME - Item</li>
+          <ul>
+            <li>Attributes: Categorical</li>
+          </ul>
           <li>LATITUDE - Position</li>
           <li>LONGITUDE - Position</li>
         </ul>
         <h3>Google-Web</h3>
         <ul>
           <li>Row data type - Link</li>
-          <li>FromNodeId - Item</li>
-          <li>ToNodeId - Item</li>
+          <li>FromNodeId - Item (node)</li>
+          <li>ToNodeId - Item (node)</li>
         </ul>
         <h3>UFO</h3>
         <ul>
+          <li>Row data type - Item</li>
           <li>datetime - Item</li>
           <ul>
             <li>Attributes: Sequential quantitative ordered</li>
           </ul>
           <li>city - Item</li>
+          <ul>
+            <li>Attributes: Categorical</li>
+          </ul>
           <li>state - Item</li>
           <ul>
             <li>Attributes: Categorical</li>
@@ -99,12 +107,20 @@
 
         <div class="column">
           <img src="img/vis2.png" class="graph" />
-          <h3>High Level: Discover - learn what years were the hottest</h3>
+          <h3>
+            High Level: Discover - learn what years were the hottest in each of
+            the cities, compare the cities to each other
+          </h3>
           <h3>
             Medium Level: Search -> Explore - no real target or location known
           </h3>
-          <h3>Low Level: Query -> Compare - comparing years to each other</h3>
-          <h3>Targets: All Data -> Trends</h3>
+          <h3>
+            Low Level: Query -> Compare - comparing years to each other, as well
+            as Portland and Seattle to each other
+          </h3>
+          <h3>
+            Targets: Attributes -> Similarity (comparing Portland and Seattle)
+          </h3>
         </div>
       </div>
     </div>
